@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #eed6f5;
+  --secondary-color: #dcaed3;
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  background-color: rgb(244, 227, 249);
+}
+body {
+  background-color: #f2eff1;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.primary-link {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.secondary-link {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.presentation {
+  margin-top: 50px;
+}
+
+.information-front {
+  color: gray;
+}
+
+.launch-botton {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.project-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
