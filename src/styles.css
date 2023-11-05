@@ -4,6 +4,12 @@
   --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 768px) {
+  .app-info {
+    text-align: center;
+  }
+}
+
 nav {
   background-color: rgb(244, 227, 249);
 }
@@ -15,10 +21,28 @@ h2 {
   margin-top: 20px;
 }
 
+img {
+  box-shadow: -5px 10px 23px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 20px;
   justify-content: center;
+  margin-bottom: 25px;
 }
 
 .primary-link {
@@ -42,7 +66,7 @@ h2 {
 }
 
 .presentation {
-  margin-top: 50px;
+  margin-top: 65px;
 }
 
 .information-front {
@@ -61,4 +85,24 @@ h2 {
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.img-about {
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: #da97ce;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.my-projects {
+  color: #f2eff1;
+  margin-top: none;
+  margin-bottom: 20px;
 }

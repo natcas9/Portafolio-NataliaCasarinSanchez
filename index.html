@@ -15,13 +15,13 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Front-end developer-Natalia Casarin</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">👩🏽‍💻 Natalia Casarin</a>
+        <a class="navbar-brand" href="index.html">👩🏽‍💻 Natalia Casarin</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,13 +39,13 @@
               <a class="nav-link active" aria-current="page" href="#">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">projects</a>
+              <a class="nav-link" href="index.html#projects">projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">about me</a>
+              <a class="nav-link" href="about.html">about me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">contact me</a>
+              <a class="nav-link" href="about.html#contact">contact me</a>
             </li>
           </ul>
         </div>
@@ -58,45 +58,48 @@
     <h3 class="text-center information-front">
       Front-end developer, based in Mexico City, Mexico
     </h3>
-    <div class="navigation-links mb-5">
+    <div class="navigation-links">
       <a href="about.html" class="secondary-link">About me</a>
       <a href="about.html#contact" class="primary-link">Contact me</a>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h2>Weather App</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            ullam iste reprehenderit doloribus placeat itaque pariatur nostrum
-            officia aperiam quibusdam vero id, delectus voluptatum? Nulla
-            recusandae iste quis. Esse, eaque.
-          </p>
-          <button class="launch-botton">Launch Weather App</button>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="weatherss.png"
-            class="project-image img-fluid"
-            alt="weatherapp"
-          />
-        </div>
-        <div class="col-md-6">
-          <img
-            src="weatherss.png"
-            class="project-image img-fluid"
-            alt="weatherapp"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2>World Clock App</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            ullam iste reprehenderit doloribus placeat itaque pariatur nostrum
-            officia aperiam quibusdam vero id, delectus voluptatum? Nulla
-            recusandae iste quis. Esse, eaque.
-          </p>
-          <button class="launch-botton">Launch World Clock App</button>
+    <div id="projects">
+      <h3 class="text-center my-projects">My projects</h3>
+      <div class="container app-info">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Weather App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+              ullam iste reprehenderit doloribus placeat itaque pariatur nostrum
+              officia aperiam quibusdam vero id, delectus voluptatum? Nulla
+              recusandae iste quis. Esse, eaque.
+            </p>
+            <button class="launch-botton">Launch Weather App</button>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="weatherss.png"
+              class="project-image img-fluid rounded d-none d-md-block"
+              alt="weatherapp"
+            />
+          </div>
+          <div class="col-md-6">
+            <img
+              src="weatherss.png"
+              class="project-image img-fluid rounded d-none d-md-block"
+              alt="world clock app"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2>World Clock App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
+              ullam iste reprehenderit doloribus placeat itaque pariatur nostrum
+              officia aperiam quibusdam vero id, delectus voluptatum? Nulla
+              recusandae iste quis. Esse, eaque.
+            </p>
+            <button class="launch-botton">Launch World Clock App</button>
+          </div>
         </div>
       </div>
     </div>
