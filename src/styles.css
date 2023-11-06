@@ -4,9 +4,20 @@
   --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .app-info {
     text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .presentation {
+    font-size: 35px;
+  }
+  .information-front {
+    font-size: 19px;
   }
 }
 
@@ -23,6 +34,7 @@ h2 {
 
 img {
   box-shadow: -5px 10px 23px 4px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
 }
 
 button {
@@ -34,8 +46,21 @@ button:hover {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
 a:hover {
   cursor: pointer;
+}
+
+#contact {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.contact-me {
+  font-size: 25px !important;
 }
 
 .navigation-links {
@@ -66,7 +91,7 @@ a:hover {
 }
 
 .presentation {
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .information-front {
@@ -89,8 +114,6 @@ a:hover {
 
 .img-about {
   margin-top: 20px;
-  display: block;
-  margin: 0 auto;
 }
 
 .email-link {
@@ -102,7 +125,12 @@ a:hover {
 }
 
 .my-projects {
-  color: #f2eff1;
+  color: gray;
   margin-top: none;
   margin-bottom: 20px;
+}
+
+.paragraph-sinopsis {
+  margin: 20px;
+  text-align: justify;
 }
